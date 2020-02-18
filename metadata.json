@@ -1,0 +1,48 @@
+{
+  "name": "unibehpc-licserv",
+  "version": "0.1.0",
+  "author": "unibehpc",
+  "summary": "This module manages license files and services to provision a license server.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/hpc-unibe-ch/puppet-module-licserv",
+  "project_page": "https://github.com/hpc-unibe-ch/puppet-module-licserv",
+  "issues_url": "https://github.com/hpc-unibe-ch/puppet-module-licserv/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+  "pdk-version": "1.16.0",
+  "template-url": "pdk-default#1.16.0",
+  "template-ref": "tags/1.16.0-0-gaf44904"
+}
